@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "test_relation_bs",
+  "info": {
+    "singularName": "test-relation-b",
+    "pluralName": "test-relation-bs",
+    "displayName": "TestRelationB"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "FreeText": {
+      "type": "string"
+    },
+    "TestRelationBID": {
+      "type": "uid"
+    }
+  }
+}

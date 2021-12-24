@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "drops",
+  "info": {
+    "singularName": "drop",
+    "pluralName": "drops",
+    "displayName": "Drop",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Type": {
+      "type": "string"
+    },
+    "Latitude": {
+      "type": "float"
+    },
+    "Longitude": {
+      "type": "float"
+    },
+    "LocationID": {
+      "type": "integer"
+    }
+  }
+}

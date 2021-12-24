@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "test_relation_as",
+  "info": {
+    "singularName": "test-relation-a",
+    "pluralName": "test-relation-as",
+    "displayName": "testRelationA"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "FreeText": {
+      "type": "string"
+    },
+    "TestRelationAID": {
+      "type": "uid"
+    }
+  }
+}

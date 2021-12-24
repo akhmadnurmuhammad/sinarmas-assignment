@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "vehicles",
+  "info": {
+    "singularName": "vehicle",
+    "pluralName": "vehicles",
+    "displayName": "vehicle",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Type": {
+      "type": "string"
+    },
+    "Brand": {
+      "type": "string"
+    },
+    "WeightCapacity": {
+      "type": "integer"
+    },
+    "VehicleID": {
+      "type": "integer"
+    }
+  }
+}

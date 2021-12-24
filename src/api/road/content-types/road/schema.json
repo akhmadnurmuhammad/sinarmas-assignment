@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "roads",
+  "info": {
+    "singularName": "road",
+    "pluralName": "roads",
+    "displayName": "Road",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "TravelTIme": {
+      "type": "integer"
+    },
+    "Distance": {
+      "type": "float"
+    },
+    "RoadID": {
+      "type": "integer"
+    }
+  }
+}

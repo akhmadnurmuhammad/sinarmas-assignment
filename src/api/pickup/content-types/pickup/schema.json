@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pickups",
+  "info": {
+    "singularName": "pickup",
+    "pluralName": "pickups",
+    "displayName": "Pickup",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Type": {
+      "type": "string"
+    },
+    "Latitude": {
+      "type": "float"
+    },
+    "Longitude": {
+      "type": "float"
+    },
+    "LocationID": {
+      "type": "integer"
+    }
+  }
+}
